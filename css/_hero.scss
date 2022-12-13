@@ -1,5 +1,3 @@
-@import "variables";
-
 .hero {
     display: flex;
     flex-direction: column;
@@ -20,6 +18,12 @@
 
         i {
             margin-right: 1em;
+        }
+
+        p, i {
+            &:hover {
+                cursor: pointer;
+            }
         }
     }
 

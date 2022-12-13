@@ -4,8 +4,18 @@
 @import "hero";
 @import "howto";
 @import "restaurants";
+@import "footer";
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     font-family: $classic;
     margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

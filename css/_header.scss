@@ -3,6 +3,11 @@ header {
     justify-content: center;
     align-items: center;
 
+    h1 {
+        font-family: $titles;
+        color: black;
+    }
+
     a {
         max-width: 45%;
     }
