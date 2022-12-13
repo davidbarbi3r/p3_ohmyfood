@@ -1,7 +1,7 @@
 @import "variables";
 
 .restaurants {
-    padding: 2em 1.5em;
+    padding: 2.5em 1.5em;
     background-color: $light_highlight;
 
     .restaurant {
@@ -41,6 +41,7 @@
             padding: 0 1em;
             background-color: white;
             border-radius: 0 0 20px 20px;
+            margin-bottom: 1em;
 
             .fa-solid {
                 display: none;
@@ -70,6 +71,5 @@
             }
         }
 
-        
     }
 }
