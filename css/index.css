@@ -223,9 +223,111 @@ footer a:hover, footer a:active {
 
 .menu {
   transform: translateY(-30px);
-  padding: 1.5em;
+  padding: 1em;
   background-color: #f7f7f7;
   border-radius: 30px 30px 0 0;
+}
+.menu .menu-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu .menu-wrapper h2 {
+  margin: 0.3em 0;
+  font-family: "Shrikhand";
+}
+.menu .menu-wrapper i {
+  font-size: 1.5rem;
+}
+.menu .menu-wrapper .fa-solid {
+  display: none;
+}
+.menu .menu-wrapper:hover {
+  cursor: pointer;
+}
+.menu .menu-wrapper:hover .fa-solid {
+  display: block;
+  color: #9356DC;
+}
+.menu .menu-wrapper:hover .fa-regular {
+  display: none;
+}
+.menu .menu-section {
+  margin-top: 2em;
+}
+.menu .menu-section .unaligned {
+  margin-left: 2em;
+}
+.menu .menu-section h3 {
+  font-weight: 300;
+  margin-bottom: 0.2em;
+  font-size: 1rem;
+}
+.menu .menu-section .separator {
+  height: 3px;
+  background-color: #99E2D0;
+  width: 35px;
+}
+.menu .menu-section .course-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  margin: 1em 0;
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.menu .menu-section .course-card h4 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.1rem;
+}
+.menu .menu-section .course-card .menu-text {
+  position: relative;
+  width: 100%;
+  padding: 1em 0 1em 1em;
+}
+.menu .menu-section .course-card .menu-text p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+.menu .menu-section .course-card .menu-text span {
+  position: absolute;
+  right: 20px;
+  bottom: 1em;
+  font-weight: 700;
+  color: #303030;
+}
+.menu .menu-section .course-card .check {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: #99E2D0;
+  color: white;
+  min-height: 100%;
+  width: 25%;
+  flex-grow: 0;
+  border-radius: 0 20px 20px 0;
+}
+.menu .menu-section .course-card .check i {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.menu .menu-section .course-card:hover {
+  cursor: pointer;
+}
+.menu .menu-section .course-card:hover .check {
+  display: flex;
+}
+.menu .btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.menu .btn-container button {
+  padding: 0.8em 2em;
+  font-size: 0.95rem;
 }
 
 html {
