@@ -93,6 +93,66 @@ header img {
   color: #9356DC;
 }
 
+.restaurants {
+  padding: 2em 1.5em;
+  background-color: #f7f7f7;
+}
+.restaurants .restaurant {
+  background-color: white;
+  border-radius: 20px;
+  min-height: 200px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.8);
+}
+.restaurants .restaurant .img-container {
+  position: relative;
+  height: 70%;
+}
+.restaurants .restaurant .img-container .new {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #0a8d6c;
+  background-color: #99E2D0;
+  font-weight: 500;
+  padding: 0.25em 0.5em;
+  font-size: 0.9rem;
+}
+.restaurants .restaurant .img-container img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 175px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px 20px 0 0;
+}
+.restaurants .restaurant .text-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1em;
+  background-color: white;
+  border-radius: 0 0 20px 20px;
+}
+.restaurants .restaurant .text-container .fa-solid {
+  display: none;
+}
+.restaurants .restaurant .text-container i {
+  font-size: 1.5rem;
+}
+.restaurants .restaurant .text-container h3 {
+  margin: 0.4em 0;
+}
+.restaurants .restaurant .text-container p {
+  margin-top: 0.2em;
+}
+.restaurants .restaurant:hover .fa-solid {
+  display: block;
+  color: #c465da;
+}
+.restaurants .restaurant:hover .fa-regular {
+  display: none;
+}
+
 body {
   font-family: "Roboto";
   margin: 0 auto;
