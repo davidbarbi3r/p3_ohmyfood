@@ -1,9 +1,13 @@
 .background-wrapper {
-    background-image: url("/assets/photos/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
     width: 100%;
     min-height: 250px;
-    background-size: cover;
-    background-position: center;
+
+    img {
+        width: 100%;
+        min-height: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
 }
 
 .menu {

@@ -214,11 +214,15 @@ footer a:hover, footer a:active {
 }
 
 .background-wrapper {
-  background-image: url("/assets/photos/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
   width: 100%;
   min-height: 250px;
-  background-size: cover;
-  background-position: center;
+}
+.background-wrapper img {
+  width: 100%;
+  min-height: 250px;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .menu {
