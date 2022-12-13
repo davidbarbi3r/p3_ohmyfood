@@ -1,5 +1,9 @@
 @import "variables";
+@import "header";
+@import "button";
+@import "hero";
 
-h1 {
-    color: $primary;
+body {
+    font-family: $classic;
+    margin: 0 auto;
 }
