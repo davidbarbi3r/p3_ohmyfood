@@ -1,3 +1,57 @@
-h1 {
-  color: #9356DC;
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {
+  max-width: 45%;
+}
+header img {
+  margin: 1em auto;
+  width: 100%;
+}
+
+.main-btn {
+  padding: 1em 1.5em;
+  margin: 1em;
+  background-image: linear-gradient(125deg, hsl(307deg, 72%, 68%) 0%, hsl(304deg, 66%, 66%) 11%, hsl(301deg, 61%, 64%) 21%, hsl(297deg, 61%, 63%) 31%, hsl(294deg, 61%, 63%) 41%, hsl(290deg, 62%, 63%) 52%, hsl(287deg, 62%, 62%) 63%, hsl(284deg, 63%, 62%) 74%, hsl(280deg, 63%, 62%) 86%, hsl(277deg, 64%, 61%) 100%);
+  color: white;
+  font-family: "Roboto";
+  font-weight: 500;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.hero .localisation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eaeaea;
+  width: 100%;
+  font-weight: 700;
+  color: #303030;
+  box-shadow: inset 0px 11px 8px -10px rgb(172, 172, 172);
+}
+.hero .localisation i {
+  margin-right: 1em;
+}
+.hero .book {
+  padding: 1em;
+}
+.hero .book .subtitle {
+  color: #717171;
+}
+
+body {
+  font-family: "Roboto";
+  margin: 0 auto;
 }/*# sourceMappingURL=index.css.map */
