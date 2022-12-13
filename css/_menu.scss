@@ -82,37 +82,43 @@
                 margin-top: 0;
                 margin-bottom: 0.5em;
                 font-size: 1.1rem;
+                text-overflow: ellipsis;
             }
             
             .menu-text {
                 position: relative;
-                width: 100%;
                 padding: 1em 0 1em 1em;
+                flex-grow: 1;
                 
                 p {
                     margin: 0;
                     font-size: 0.9rem;
+                    text-overflow: ellipsis;
                 }
 
                 span {
                     position: absolute;
-                    right: 20px;
+                    right: 10px;
                     bottom: 1em;
                     font-weight: 700;
                     color: $font_darkgrey;
+                    display: block;
                 }
             }
 
             .check {
-                display: none;
+                display: flex;
                 align-items: center;
                 justify-content: center;
                 background-color: $terciary;
                 color: white;
                 min-height: 100%;
-                width: 25%;
+                visibility: hidden;
+                opacity: 0;
+                width: 0;
                 flex-grow: 0;
                 border-radius: 0 20px 20px 0;
+                transition: all .8s ease;
 
                 i {
                     font-size: 1.5rem;
@@ -126,7 +132,17 @@
 
                 .check {
                     display: flex;
+                    flex-grow: 0.20;
+                    visibility: visible;
+                    width: 20%;
+                    max-width: 20%;
+                    opacity: 1;
+                    
                 }
+
+                // .fa-solid {
+                //     transform: rotateX(360deg);
+                // }
             }
 
         }
