@@ -6,7 +6,7 @@
     justify-content: center;
     width: 100%;
     height: 180vh;
-    z-index: 1;
+    z-index: -1;
     background-color: $light_highlight;
     margin: 0 auto;
     animation: load 2s 1;
@@ -16,6 +16,7 @@
     0%, 80% {
         opacity: 100;
         display: flex;
+        z-index: 1;
     }
     100% {
         opacity: 0;
