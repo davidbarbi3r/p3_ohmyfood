@@ -176,7 +176,22 @@
                 //     transform: rotateX(360deg);
                 // }
             }
+        }
 
+        .delay-1 {
+            animation: delay 2s 1;
+        }
+
+        .delay-2 {
+            opacity: 0;
+            animation: delay 2s 1 0.5s;
+            animation-fill-mode: forwards;
+        }
+
+        .delay-3 {
+            opacity: 0;
+            animation: delay 2s 1 1.5s;
+            animation-fill-mode: forwards;
         }
     }
 
@@ -197,6 +212,12 @@
     } 100% {
         transform: rotate(360deg);
     }
+}
 
-
+@keyframes delay {
+    0% {
+        opacity: 0;
+    } 100% {
+        opacity: 1;
+    }
 }

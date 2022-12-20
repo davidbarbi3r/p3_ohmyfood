@@ -403,6 +403,24 @@ footer a:hover, footer a:active {
   -webkit-animation: check-rotate 1s 1;
           animation: check-rotate 1s 1;
 }
+.menu .menu-section .delay-1 {
+  -webkit-animation: delay 2s 1;
+          animation: delay 2s 1;
+}
+.menu .menu-section .delay-2 {
+  opacity: 0;
+  -webkit-animation: delay 2s 1 0.5s;
+          animation: delay 2s 1 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.menu .menu-section .delay-3 {
+  opacity: 0;
+  -webkit-animation: delay 2s 1 1.5s;
+          animation: delay 2s 1 1.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
 .menu .btn-container {
   width: 100%;
   display: flex;
@@ -428,6 +446,22 @@ footer a:hover, footer a:active {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes delay {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 .loader {
