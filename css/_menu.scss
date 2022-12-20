@@ -19,6 +19,7 @@
 
     .menu-wrapper {
 
+        position: relative;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -34,20 +35,35 @@
             font-size: 1.5rem;
         }
 
+        .fa-regular {
+            position: absolute;
+            right: 15px;
+            visibility: visible;
+            transition: all 0.5s ease-in-out;
+            padding: 1em;
+        }
+
         .fa-solid {
-            display: none;
+            position: absolute;
+            right: 15px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.5s ease-in-out;
+            padding: 1em;
         }
 
         &:hover {
             cursor: pointer;
         
             .fa-solid {
-                display: block;
-                color: $primary;
+                visibility: visible;
+                opacity: 1;
+                color: #c465da;
             }
 
             .fa-regular {
-                display: none;
+                visibility: hidden;
+                opacity: 0;
             }
         }
     }
