@@ -3,7 +3,6 @@ header {
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: 2;
 }
 header .left-arrow {
   position: absolute;
@@ -345,6 +344,7 @@ footer a:hover, footer a:active {
   margin-bottom: 0.5em;
   font-size: 1.1rem;
   text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu .menu-section .course-card .menu-text {
   position: relative;
@@ -352,7 +352,6 @@ footer a:hover, footer a:active {
   flex-grow: 1;
   width: 100%;
   white-space: nowrap;
-  text-overflow: ellipsis;
   overflow: hidden;
 }
 .menu .menu-section .course-card .menu-text .flex {
@@ -362,6 +361,8 @@ footer a:hover, footer a:active {
 .menu .menu-section .course-card .menu-text p {
   margin: 0;
   font-size: 0.9rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .menu .menu-section .course-card .menu-text span {
   margin-right: 1em;
