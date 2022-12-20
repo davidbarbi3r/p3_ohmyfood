@@ -9,6 +9,7 @@ header .left-arrow {
   left: 5%;
   font-size: 2rem;
   color: #303030;
+  padding: 0.5em 0.25em;
 }
 header .left-arrow:hover {
   cursor: pointer;
@@ -21,6 +22,8 @@ header h1 {
 }
 header a {
   max-width: 45%;
+  display: flex;
+  justify-content: center;
 }
 header img {
   margin: 1em auto;
@@ -65,8 +68,15 @@ header img {
   color: #303030;
   box-shadow: inset 0px 11px 8px -10px rgb(172, 172, 172);
 }
+.hero .localisation span {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .hero .localisation i {
-  margin-right: 1em;
+  position: absolute;
+  left: -1.5em;
 }
 .hero .localisation p:hover, .hero .localisation i:hover {
   cursor: pointer;

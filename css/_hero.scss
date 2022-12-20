@@ -16,8 +16,16 @@
         color: $font_darkgrey;
         box-shadow: inset 0px 11px 8px -10px rgb(172, 172, 172);
 
+        span {
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
         i {
-            margin-right: 1em;
+            position: absolute;
+            left: -1.5em;
         }
 
         p, i {

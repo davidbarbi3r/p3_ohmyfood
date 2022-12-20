@@ -9,6 +9,7 @@ header {
         left: 5%;
         font-size: 2rem;
         color: $font_darkgrey;
+        padding: 0.5em 0.25em;
 
         &:hover {
             cursor: pointer;
@@ -24,6 +25,8 @@ header {
 
     a {
         max-width: 45%;
+        display: flex;
+        justify-content: center;
     }
 
     img {
