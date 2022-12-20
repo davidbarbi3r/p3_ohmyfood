@@ -90,17 +90,24 @@
                 position: relative;
                 padding: 1em 0 1em 1em;
                 flex-grow: 1;
+                width: 100%;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+
+                .flex {
+                    display: flex;
+                    justify-content: space-between;
+                }
                 
                 p {
                     margin: 0;
                     font-size: 0.9rem;
-                    text-overflow: ellipsis;
+                    
                 }
 
                 span {
-                    position: absolute;
-                    right: 10px;
-                    bottom: 1em;
+                    margin-right: 1em;
                     font-weight: 700;
                     color: $font_darkgrey;
                     display: block;
@@ -138,7 +145,6 @@
                     width: 20%;
                     max-width: 20%;
                     opacity: 1;
-                    
                 }
 
                 // .fa-solid {

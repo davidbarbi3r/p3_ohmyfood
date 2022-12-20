@@ -307,16 +307,21 @@ footer a:hover, footer a:active {
   position: relative;
   padding: 1em 0 1em 1em;
   flex-grow: 1;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.menu .menu-section .course-card .menu-text .flex {
+  display: flex;
+  justify-content: space-between;
 }
 .menu .menu-section .course-card .menu-text p {
   margin: 0;
   font-size: 0.9rem;
-  text-overflow: ellipsis;
 }
 .menu .menu-section .course-card .menu-text span {
-  position: absolute;
-  right: 10px;
-  bottom: 1em;
+  margin-right: 1em;
   font-weight: 700;
   color: #303030;
   display: block;
