@@ -74,23 +74,27 @@
             p {
                 margin-top: 0.2em;
             }
+
+            span:hover {
+                .fa-solid {
+                    visibility: visible;
+                    opacity: 1;
+                    color: #c465da;
+                }
+    
+                .fa-regular {
+                    visibility: hidden;
+                    opacity: 0;
+                }
+            }
         }
 
         &:hover {
             cursor: pointer;
             box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
-
-            .fa-solid {
-                visibility: visible;
-                opacity: 1;
-                color: #c465da;
-            }
-
-            .fa-regular {
-                visibility: hidden;
-                opacity: 0;
-            }
         }
+
+
 
     }
 }

@@ -203,18 +203,18 @@ header img {
 .restaurants .restaurant .text-container p {
   margin-top: 0.2em;
 }
-.restaurants .restaurant:hover {
-  cursor: pointer;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
-}
-.restaurants .restaurant:hover .fa-solid {
+.restaurants .restaurant .text-container span:hover .fa-solid {
   visibility: visible;
   opacity: 1;
   color: #c465da;
 }
-.restaurants .restaurant:hover .fa-regular {
+.restaurants .restaurant .text-container span:hover .fa-regular {
   visibility: hidden;
   opacity: 0;
+}
+.restaurants .restaurant:hover {
+  cursor: pointer;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.15);
 }
 
 footer {
