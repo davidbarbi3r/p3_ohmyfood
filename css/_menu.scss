@@ -177,6 +177,7 @@
         .delay-1 {
             animation: delay 2s 1;
             transform: translateY(10px);
+            animation-fill-mode: forwards;
         }
 
         .delay-2 {

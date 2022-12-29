@@ -407,6 +407,8 @@ footer a:hover, footer a:active {
   -webkit-animation: delay 2s 1;
           animation: delay 2s 1;
   transform: translateY(10px);
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
 }
 .menu .menu-section .delay-2 {
   opacity: 0;
