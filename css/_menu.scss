@@ -181,16 +181,19 @@
 
         .delay-1 {
             animation: delay 2s 1;
+            transform: translateY(10px);
         }
 
         .delay-2 {
             opacity: 0;
+            transform: translateY(10px);
             animation: delay 2s 1 0.5s;
             animation-fill-mode: forwards;
         }
 
         .delay-3 {
             opacity: 0;
+            transform: translateY(10px);
             animation: delay 2s 1 1.5s;
             animation-fill-mode: forwards;
         }
@@ -220,5 +223,6 @@
         opacity: 0;
     } 100% {
         opacity: 1;
+        transform: translateY(0px);
     }
 }
